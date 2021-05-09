@@ -1,4 +1,5 @@
 /**
+ * Be awere this methods are not compatible with all Browsers!!!!!!!
  * In modern java script we have two new methods for testing the element of an array.
  * Every and Some
  * Every will return a boolean value if all the elements of the array matchs the condition
