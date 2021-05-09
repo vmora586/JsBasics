@@ -13,6 +13,6 @@ const filteredNumbers = numbers.filter(function (number) {
 });
 */
 
-//Arrow function way
+//Arrow function way (with out the parentesis, return and colibrisis);
 const filteredNumbers = numbers.filter((n) => n > 0);
 console.log(filteredNumbers);
