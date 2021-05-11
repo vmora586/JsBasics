@@ -7,15 +7,15 @@ console.log("original values: ", numbers);
 
 //End: by using POP method
 const last = numbers.pop();
-console.log(last);
+console.log("last: " + last);
 console.log("remanining values: ", numbers);
 
-//Middle. By using Slice method (start index, number of elements to remove).
+//Middle. By using Splice method (start index, number of elements to remove).
 const middle = numbers.splice(1, 1);
-console.log(middle);
-console.log("remanining values: ", numbers);
+console.log("middle value: " + middle);
+console.log("remanining values after removing with splice: ", numbers);
 
-//Begining. By using the POP method.
+//Begining. By using the Shift method.
 const first = numbers.shift();
 console.log(first);
 console.log("remanining values: ", numbers);
