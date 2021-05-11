@@ -7,25 +7,19 @@
  */
 
 const numbers = [1, 2, 3, 4];
-
-console.log(move(numbers, 3, -1));
+const output = move(numbers, 3, -1);
+console.log(output);
 
 //move (numbers, 0, 2) the function will move the value numbers[0] (1) two positions to the right.
 function move(array, index, offset) {
-  if (index < 0 || index > array.length) {
-    console.error("Not valid index");
-    return;
-  }
-
   const position = index + offset;
   if (position < 0 || position >= array.length) {
     console.error("Not Valid Offset");
     return;
   }
 
-  let output = [...array];
-  const element = array.splice(index, 1)[0];
-  output.splice(position, 0, element);
-
+  const output = [...array];
+  const element = output.splice(index, 1)[0]; //Splice returns an arary with all removed elements
+  output.splice(position, 0, element); // Splice method also add elements if the second parameter is <=0
   return output;
 }
