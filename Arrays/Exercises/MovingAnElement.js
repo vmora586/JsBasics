@@ -13,6 +13,7 @@ console.log(output);
 //move (numbers, 0, 2) the function will move the value numbers[0] (1) two positions to the right.
 function move(array, index, offset) {
   const position = index + offset;
+
   if (position < 0 || position >= array.length) {
     console.error("Not Valid Offset");
     return;
