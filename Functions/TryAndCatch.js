@@ -20,7 +20,7 @@ const person = {
   },
 };
 
-person.fullName = null;
+person.fullName = "";
 
 try {
   console.log(person);
