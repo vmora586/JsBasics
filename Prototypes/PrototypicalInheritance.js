@@ -1,6 +1,6 @@
 /**
  *Inheritance is one of the four pilars of the POO which allows classes take atributes and behaviour
- * from other classes from up of them on the structure. Those classes are usually called Parent classes.
+ * from other classes up of them on the structure. Those classes are usually called Parent classes.
  * However, because of in Javascript does not exists the classes in the same way they exists in other
  * languages (here just exists objects), the inheritances takes the name of 'Prototypical Inheritance'
  *
@@ -13,10 +13,10 @@
 let x = {};
 
 /*
-if we evaluate in the chrome console we will see this object has a property called __proto__: which points to its parent
-just by the course we are going to call this object as "ObjectBase". All the objects created in JS directly or 
-indirectly inherits from this Object. Object Base is the root object in Js and it does not have a prototype
-or parent.
+if we evaluate in the chrome console we will see this object has a property called __proto__: 
+which points to its parent. Just by the course we are going to call this object as "ObjectBase".
+ All the objects created in JS directly or indirectly inherits from this Object. 
+ Object Base is the root object in Js and it does not have a prototype or parent.
 */
 
 //for getting an object parent or its Prototype, we can use next stament:
