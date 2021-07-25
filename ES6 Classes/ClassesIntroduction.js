@@ -1,6 +1,6 @@
 /**
  * There are two different ways for declaring classes on ES6 (2015 JS). By using class declaration or
- * by using Class initialization (to assign the class to a variable.) By convention and familiarity,
+ * by using Class expression (to assign the class to a variable.) By convention and familiarity,
  * where are going to work with class the class declaration approach.
  */
 
