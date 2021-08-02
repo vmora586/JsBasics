@@ -27,5 +27,6 @@ GLOBAL object. Now intead of seeing the circle object, we are seing the Windows 
  * Just to remeber, when we use the "new" key word, Js engine creates a new empty object and set "this"
  * in the constructor function to point to this empty object. Also, "this" key word always point to the
  * Global object (Window in the browser and Global in Node). We have exactly the same principle here.
- *
+ * Also remember the 'Strict' mode, which prevents the use of the 'this' key word and the accidentally
+ * modification of the global object. All Js classes by DEFAULT use the STRICT behaviour
  */
