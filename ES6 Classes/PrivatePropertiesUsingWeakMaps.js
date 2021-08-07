@@ -66,7 +66,7 @@ class Circle2 {
   //it does not make any sense call move method inside draw(),
   //we know it. But it is just for the explanation puposes.
   draw() {
-    _move.get(this)(); //notice we added additional parameters as the get method returns a function
+    _move.get(this)(); //notice we added additional parenthesis as the get method returns a function
     console.log("draw");
   }
 }
